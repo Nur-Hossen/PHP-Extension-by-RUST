@@ -1,4 +1,5 @@
 
+# Installation Guidelines
 ## Rust Installation Process
 **1. System update and essential tools install:**
 ```
