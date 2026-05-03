@@ -1,0 +1,11 @@
+[package]
+name = "loan_calc"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ext-php-rs = "0.15.12"  # Bindings and abstractions for the Zend API to build PHP extensions natively in Rust.
+chrono = "0.4"  # Date and Time for Rust

@@ -1,0 +1,33 @@
+
+## Rust Installation Process
+    1. System update and essential tools install:
+        sudo apt update && sudo apt upgrade -y
+        sudo apt install curl build-essential -y
+        sudo apt install php-dev
+
+    2. Rust install: 
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    
+    3. Environment setup: 
+        source "$HOME/.cargo/env"
+    
+    4. Installation verify:
+        * Compiler: rustc --version
+        * Package Manager: cargo --version
+
+## Extestion for PHP
+
+    * Create library: 
+        cargo new loan_calc --lib
+    
+    * Build library:
+        cargo build --release
+
+
+## ext-php-rs
+
+ ### Bindings and abstractions for the Zend API to build PHP extensions natively in Rust.<br>
+     
+     1. Documentation[https://docs.rs/ext-php-rs]
+
+     2. Guide[https://ext-php.rs]
