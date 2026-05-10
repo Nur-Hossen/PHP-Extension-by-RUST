@@ -1,1 +1,11 @@
 /target
+/codes/target
+/vendor
+/codes/vendor
+/node_modules
+/codes/node_modules
+/.idea
+/codes/.idea
+/.vscode
+/codes/.vscode
+
